@@ -1,0 +1,89 @@
+#print kodlarının başındaki yorum işaretlerini(#) tek tek kaldırarak örnekleri deneyebilirsiniz. 
+#tuple örnekleri
+
+empty_str=""
+empty_list=[]
+empty_tuple=()
+
+#print(type(empty_str))
+#print(type(empty_list))
+#print(type(empty_tuple))
+
+
+#şimdi boş olan str, list ve tuple olanlara eklemeler yapalım
+
+tek_str="elma"
+tek_list=["karpuz"]
+tek_tuple=("armut")
+
+#print()
+#print()
+
+#print(type(tek_str))
+#print(type(tek_list))
+#print(type(tek_tuple))
+"""tuple, tuple sınıfına girmedi içerisine yazdığımız sınıfa girdi
+tuple'ın özel durumu var. Onu şu şekilde yapıyoruz"""
+
+
+
+çift_tuple=("armut","erik")
+#print(type(çift_tuple))
+
+"""tuple ile listeler birbirine benzer fakar aralarındaki fark. Listelede elemanlar
+değiştirilebilir, tuplelarda ise değiştirilemez"""
+
+#listelere örnekler. liste üzerinde değişikliler yapıyorum
+
+asal_sayılar=[2,3,5,7]
+#print(asal_sayılar)
+asal_sayılar.append(11)
+#print(asal_sayılar)
+asal_sayılar[4]=12
+#print(asal_sayılar)
+asal_sayılar[4]=11
+#print(asal_sayılar)
+
+#tuple örnekler.
+
+mevsimler=("ilkbahar","yaz","sonbahar","kış")
+#print(type(mevsimler))
+#print(mevsimler[0])#tuple'ın ilk karakterini aldım
+#print(len(mevsimler))#tuple içindeki eleman sayısını aldım. 4 eleman var
+#print(mevsimler[0]="İlkbahar") bu kod hata verecek. Çünkü tuple'larda değişiklik yapılmıyor.
+
+
+#Listeleri tuplelara çevirebiliriz. 
+yaz_ayları=["hazıran","temmuz","ağustos"]
+#print(type(yaz_ayları))
+aylar=tuple(yaz_ayları)
+#print(type(aylar))
+#tuple'larıda listere çevirebiliriz.
+#print(type(aylar))
+yaz_ayları=list(aylar)
+#print(type(yaz_ayları))
+
+#print(tuple(yaz_ayları))
+#print(yaz_ayları[0])
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      
+
+
+
+
