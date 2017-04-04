@@ -1,3 +1,5 @@
+#Örnekleri denemek için print kodlarının önündeki # işaretlerini tek tek kaldırarak kodların hangi çıktıları verdiğini görebilirsiniz. 
+
 kişiler=["semih","ali","kemal","osman","ismet"]
 kişiler.append("melih")
 #print(len(kişiler))
