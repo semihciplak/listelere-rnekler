@@ -1,0 +1,22 @@
+kişiler=["semih","ali","kemal","osman","ismet"]
+kişiler.append("melih")
+#print(len(kişiler))
+#len komutu length'ten geliyor. listenin uzunluğu
+
+#print(kişiler[len(kişiler)-1])
+
+kişiler.remove("semih")  #remove listeden eleman silmeye yarıyor
+#print(kişiler)
+kişiler.append("semih")  #append listenin sonuna eleman eklemeye yarıyor
+#print(kişiler)
+kişiler.insert(2,"ahmet")
+#insert listede istediğimiz sıraya eleman eklememiz yarıyor.
+#insert'e ilk yazdığımız ekleyeceğimiz elemanın listenin hangi sırasına ekleyeceğimizi temsil ediyor.
+#insert'e ikinci yazdığımız ise gireceğimiz eleman oluyor. 
+#print(kişiler)
+kişiler.insert(5,"şükran")
+#print(kişiler)
+kişiler.append(12)
+#print(kişiler)
+#listelere hem str hem int kabul edebilir.
+
